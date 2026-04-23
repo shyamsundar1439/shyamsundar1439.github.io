@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shyam Sundar CH — Portfolio</title>
+  <meta name="description" content="Portfolio of Shyam Sundar CH — Software Engineer & Full Stack Developer." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Shyam Sundar CH — Portfolio" />
+  <meta property="og:description" content="Software Engineer & Full Stack Developer" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon (emoji fallback) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+
+  <!-- Font Awesome (icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plh7eecAAzt/ERSNVRygQlCa7ln8OQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">&lt;SS /&gt;</a>
+
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-avatar">🧑‍💻</div>
+
+      <span class="hero-badge">Available for opportunities</span>
+
+      <h1 class="hero-name">Shyam Sundar CH</h1>
+
+      <p class="hero-title">
+        <span id="typed-title"></span>
+      </p>
+
+      <p class="hero-desc">
+        I build clean, performant, and user-friendly digital experiences. Passionate about turning complex problems into elegant solutions.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-rocket"></i> View My Work
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa-solid fa-envelope"></i> Get In Touch
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/shyamsundar1439" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/shyamsundar1439" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com/shyamsundar1439" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="mailto:shyamsundar1439@gmail.com" class="social-icon" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-inner">
+      <p class="section-label reveal">About me</p>
+      <h2 class="section-title reveal">Who I Am</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="about-grid">
+        <div class="about-img-wrap reveal">
+          <div class="about-img">🧑‍💻</div>
+        </div>
+
+        <div class="about-text reveal">
+          <p>
+            Hi, I'm <strong>Shyam Sundar CH</strong> — a passionate software engineer who loves crafting full-stack web applications with a focus on clean code, performance, and great user experience.
+          </p>
+          <p>
+            I enjoy working across the entire stack — from designing intuitive UIs to architecting scalable back-end services. I'm always eager to learn new technologies and take on challenging problems.
+          </p>
+          <p>
+            Outside of coding, I enjoy exploring open-source projects, staying up to date with the latest in tech, and contributing to the developer community.
+          </p>
+
+          <a href="#" class="btn btn-outline" style="margin-top:1rem; display:inline-flex;" download>
+            <i class="fa-solid fa-file-arrow-down"></i> Download Résumé
+          </a>
+
+          <div class="about-stats">
+            <div class="stat-card reveal">
+              <div class="stat-number">2+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card reveal">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Projects Done</div>
+            </div>
+            <div class="stat-card reveal">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Technologies</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="section-inner">
+      <p class="section-label reveal">What I know</p>
+      <h2 class="section-title reveal">Skills & Technologies</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-category-title">
+            <i class="fa-solid fa-paintbrush"></i> Frontend
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Tailwind CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-title">
+            <i class="fa-solid fa-server"></i> Backend
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">GraphQL</span>
+            <span class="skill-tag">Java</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-title">
+            <i class="fa-solid fa-database"></i> Database & Cloud
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Firebase</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-title">
+            <i class="fa-solid fa-wrench"></i> Tools & DevOps
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="section-inner">
+      <p class="section-label reveal">My work</p>
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-img">🛒</div>
+          <div class="project-body">
+            <h3 class="project-title">E-Commerce Platform</h3>
+            <p class="project-desc">
+              A full-stack e-commerce application with product management, cart, checkout, and payment integration.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">MongoDB</span>
+              <span class="tech-badge">Stripe</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">💬</div>
+          <div class="project-body">
+            <h3 class="project-title">Real-Time Chat App</h3>
+            <p class="project-desc">
+              A real-time messaging application supporting one-on-one and group chats with typing indicators and read receipts.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">Next.js</span>
+              <span class="tech-badge">Socket.io</span>
+              <span class="tech-badge">PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">📊</div>
+          <div class="project-body">
+            <h3 class="project-title">Analytics Dashboard</h3>
+            <p class="project-desc">
+              An interactive analytics dashboard with data visualizations, filtering, and export capabilities.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">TypeScript</span>
+              <span class="tech-badge">D3.js</span>
+              <span class="tech-badge">Python</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">📝</div>
+          <div class="project-body">
+            <h3 class="project-title">Task Management Tool</h3>
+            <p class="project-desc">
+              A Kanban-style task manager with drag-and-drop boards, due dates, priorities, and team collaboration.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">Express</span>
+              <span class="tech-badge">MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">🤖</div>
+          <div class="project-body">
+            <h3 class="project-title">AI Chatbot</h3>
+            <p class="project-desc">
+              An AI-powered chatbot leveraging large language models for context-aware conversations and Q&A.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">FastAPI</span>
+              <span class="tech-badge">OpenAI</span>
+              <span class="tech-badge">React</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">🌐</div>
+          <div class="project-body">
+            <h3 class="project-title">Portfolio Website</h3>
+            <p class="project-desc">
+              This very portfolio — a responsive, dark-themed personal website built with vanilla HTML, CSS, and JavaScript.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/shyamsundar1439/shyamsundar1439.github.io" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+              <a href="https://shyamsundar1439.github.io" class="project-link" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="section-inner">
+      <p class="section-label reveal">Career</p>
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">2023 — Present</span>
+            <span class="timeline-company">Tech Company</span>
+          </div>
+          <h3 class="timeline-role">Software Engineer</h3>
+          <div class="timeline-desc">
+            <ul>
+              <li>Developed and maintained scalable full-stack web applications serving thousands of users daily.</li>
+              <li>Collaborated with cross-functional teams to design and ship new product features.</li>
+              <li>Improved API response time by 40% through query optimization and caching strategies.</li>
+              <li>Mentored junior engineers and conducted code reviews to maintain code quality.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">2022 — 2023</span>
+            <span class="timeline-company">Startup / Internship</span>
+          </div>
+          <h3 class="timeline-role">Full Stack Developer Intern</h3>
+          <div class="timeline-desc">
+            <ul>
+              <li>Built responsive UI components using React and integrated them with REST APIs.</li>
+              <li>Designed and implemented database schemas for a customer management system.</li>
+              <li>Participated in Agile sprints, daily standups, and sprint retrospectives.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">2018 — 2022</span>
+            <span class="timeline-company">University</span>
+          </div>
+          <h3 class="timeline-role">B.Tech — Computer Science & Engineering</h3>
+          <div class="timeline-desc">
+            <p>Graduated with a strong foundation in data structures, algorithms, software engineering, and computer networks.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="section-inner">
+      <p class="section-label reveal">Say hello</p>
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="contact-grid">
+        <div class="reveal">
+          <p style="color:var(--text-muted); margin-bottom:2rem;">
+            I'm always open to new opportunities, collaborations, or just a friendly chat about tech. Feel free to reach out!
+          </p>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <a href="mailto:shyamsundar1439@gmail.com" class="contact-info-value">shyamsundar1439@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <div class="contact-info-label">GitHub</div>
+              <a href="https://github.com/shyamsundar1439" target="_blank" rel="noopener" class="contact-info-value">github.com/shyamsundar1439</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div>
+              <div class="contact-info-label">LinkedIn</div>
+              <a href="https://linkedin.com/in/shyamsundar1439" target="_blank" rel="noopener" class="contact-info-value">linkedin.com/in/shyamsundar1439</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <div class="contact-info-label">Location</div>
+              <div class="contact-info-value">India 🇮🇳</div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Collaboration / Opportunity / Just Saying Hi" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">
+        &copy; <span id="year"></span> Shyam Sundar CH. Built with ❤️ using HTML, CSS & JS.
+      </span>
+      <div class="footer-socials">
+        <a href="https://github.com/shyamsundar1439" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/shyamsundar1439" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:shyamsundar1439@gmail.com" class="social-icon" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
